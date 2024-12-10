@@ -9,7 +9,7 @@ const ProfileEdit = () => {
 
   useEffect(() => {
 
-    fetch(`http://localhost:8080/api/users/${idUser}`)
+    fetch(`https://candied-eggplant-bicycle.glitch.me/api/users/${idUser}`)
     .then(response => response.json())
     .then(data => setUser(data))
 
