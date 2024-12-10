@@ -1,0 +1,71 @@
+/* Contenedor principal */
+.register-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título */
+.register-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: var(--color-principal, #55ab44);
+}
+
+/* Formulario */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Grupo de entrada */
+.form-group {
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid var(--color-principal, #55ab44);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--color-secundario, #3440b0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Botón de envío */
+.register-form input[type="submit"] {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--color-principal, #55ab44);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form input[type="submit"]:hover {
+  background-color: var(--color-secundario, #3440b0);
+}

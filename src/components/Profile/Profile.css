@@ -1,0 +1,36 @@
+.container-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-perfil-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 720px;
+  padding: 15px;
+}
+
+.img-profile {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.editar {
+  position: absolute;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+}

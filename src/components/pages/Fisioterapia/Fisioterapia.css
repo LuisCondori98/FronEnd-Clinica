@@ -1,0 +1,15 @@
+.banner-fisio {
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/img/fisio.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  height: 70vh;
+}
+
+.fisio-title {
+  border-radius: 7px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.728);
+}

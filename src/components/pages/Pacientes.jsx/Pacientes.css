@@ -1,0 +1,21 @@
+.container-pacientes h2 {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(83, 183, 255);
+  color: white;
+}
+
+.container-paciente {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.loading {
+  background-image: url("/img/loading.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 50vh;
+}

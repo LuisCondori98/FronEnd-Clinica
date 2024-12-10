@@ -1,0 +1,13 @@
+.container-doctor h2 {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(83, 183, 255);
+  color: white;
+}
+
+.container-doctor {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}

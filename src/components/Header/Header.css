@@ -1,0 +1,37 @@
+header {
+  text-align: center;
+}
+
+.logo {
+  height: 130px;
+}
+
+.btn {
+  margin: 0 10px;
+}
+
+.login-register {
+  position: absolute;
+  display: flex;
+  top: 60px;
+  right: 20px;
+}
+
+.direc {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.direc {
+  right: 15px;
+}
+
+.direc-email {
+  right: 200px;
+}
+
+.bi {
+  font-size: 25px;
+  margin: 0 10px;
+}
