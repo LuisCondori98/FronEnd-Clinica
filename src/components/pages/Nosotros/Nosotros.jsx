@@ -9,7 +9,7 @@ const Nosotros = () => {
 
   useEffect(() => {
 
-    fetch("http://localhost:8080/api/doctores")
+    fetch("https://candied-eggplant-bicycle.glitch.me/api/doctores")
       .then(response => response.json())
       .then(data => setDoctors(data))
 

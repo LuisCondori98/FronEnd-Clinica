@@ -33,7 +33,7 @@ const Register = () => {
     <main>
       <div class="register-container" data-aos="flip-left">
         <h2>Regístrate</h2>
-        <form action='http://localhost:8080/api/users/register' method="POST" class="register-form">
+        <form action='https://candied-eggplant-bicycle.glitch.me/api/users/register' method="POST" class="register-form">
           <div class="form-group">
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="Nombre" placeholder="Ingrese su nombre" required />
