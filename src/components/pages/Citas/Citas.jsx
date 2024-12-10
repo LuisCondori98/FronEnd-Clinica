@@ -52,7 +52,7 @@ const Citas = () => {
 
       Swal.fire(`Cuenta creada ya no necesita registrarse`);
 
-      fetch("http://localhost:8080/api/citas", {
+      fetch("https://desert-woozy-venus.glitch.me/api/citas", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',

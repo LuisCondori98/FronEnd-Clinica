@@ -8,7 +8,7 @@ const Pacientes = () => {
 
   useEffect(() => {
 
-    fetch("https://candied-eggplant-bicycle.glitch.me/api/users/pacientes")
+    fetch("https://desert-woozy-venus.glitch.me/api/users/pacientes")
     .then(response => response.json())
     .then(data => {
       setPacientes(data)
