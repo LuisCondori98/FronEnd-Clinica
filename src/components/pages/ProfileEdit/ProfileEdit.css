@@ -1,0 +1,8 @@
+.container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin: auto;
+  padding: 25px;
+}

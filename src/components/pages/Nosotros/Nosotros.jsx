@@ -61,7 +61,7 @@ const Nosotros = () => {
               {
                 doctors.map(doc => (
                   <div class="miembro">
-                    <img src={doc.img} alt={doc.Nombre} />
+                    <img src={`/img/${doc.img}`} alt={doc.Nombre} />
                     <h4>{doc.Nombre}</h4>
                     <p>{doc.Especialidad}</p>
                   </div>

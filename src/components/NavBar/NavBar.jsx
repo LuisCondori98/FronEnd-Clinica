@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
 
-let naveg = ["Inicio", "Especialidades", "Contacto", "Citas", "Nosotros"]
+let navegacion = ["Inicio", "Especialidades", "Contacto", "Citas", "Nosotros"]
 
   return (
     <nav class="navbar navbar-expand-lg">
@@ -16,7 +16,7 @@ let naveg = ["Inicio", "Especialidades", "Contacto", "Citas", "Nosotros"]
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
               {
-                naveg.map(i => <NavLink to={`/${i.toLowerCase()}`} className={({isActive}) => isActive ? "link-active" : "link"}>{i}</NavLink>)
+                navegacion.map(i => <NavLink to={`/${i.toLowerCase()}`} className={({isActive}) => isActive ? "link-active" : "link"}>{i}</NavLink>)
               }
           </ul>
         </div>

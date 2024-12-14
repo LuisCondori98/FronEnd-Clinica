@@ -12,7 +12,7 @@ import Register from "./components/pages/Register/Register"
 import Contacto from "./components/pages/Contacto/Contacto"
 import Citas from "./components/pages/Citas/Citas"
 import Profile from "./components/Profile/Profile"
-import Pacientes from "./components/pages/Pacientes.jsx/Pacientes"
+import Pacientes from "./components/pages/Pacientes/Pacientes"
 import Doctores from "./components/pages/Doctores/Doctores"
 import ProfileEdit from "./components/pages/ProfileEdit/ProfileEdit"
 
