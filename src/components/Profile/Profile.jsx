@@ -4,6 +4,8 @@ import "./Profile.css"
 
 const Profile = () => {
 
+  document.title = "Clinica Vida Plena  |  Perfil"
+
   const user = JSON.parse(localStorage.getItem('user'))
 
   return (

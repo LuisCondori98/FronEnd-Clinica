@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom'
 
 const ProfileEdit = () => {
 
+  document.title = "Clinica Vida Plena  |  Editar Perfil"
+
   const {idUser} = useParams()
   const [user, setUser] = useState({})
 

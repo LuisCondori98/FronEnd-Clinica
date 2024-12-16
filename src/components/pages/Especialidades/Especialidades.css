@@ -40,6 +40,11 @@
   height: 300px;
   object-fit: cover;
   margin-bottom: 15px;
+  transition: all ease-in-out .4s;
+}
+
+.specialty-card img:hover {
+  transform: scale(0.97);
 }
 
 .specialty-card h3 {

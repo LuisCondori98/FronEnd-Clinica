@@ -30,6 +30,16 @@ const Especialidades = () => {
       Especialidad: "Gastroenterología",
       Info: "Especialistas en aparato digestivo, especialmente del estómago y de los intestinos, y de sus enfermedades.",
       img: "gastroenterologia.webp"
+    },
+    {
+      Especialidad: "Odontologia",
+      Info: "Especilistas en enfermedades del aparato estomatognático, el cual incluye además de los dientes.",
+      img: "odontologia.jpg"
+    },
+    {
+      Especialidad: "Gastroentereologia",
+      Info: "estudiar y tratar las enfermedades del aparato digestivo",
+      img: "gastroenterología.jpg"
     }
   ]
 

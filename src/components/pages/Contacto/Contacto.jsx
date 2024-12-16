@@ -2,6 +2,9 @@ import React from 'react'
 import "./Contacto.css"
 
 const Contacto = () => {
+
+  document.title = "Clinica Vida Plena  |  Contacto"
+
   return (
     <main>
       <div class="contact-page">

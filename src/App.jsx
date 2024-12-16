@@ -15,6 +15,7 @@ import Profile from "./components/Profile/Profile"
 import Pacientes from "./components/pages/Pacientes/Pacientes"
 import Doctores from "./components/pages/Doctores/Doctores"
 import ProfileEdit from "./components/pages/ProfileEdit/ProfileEdit"
+// import Farmacia from "./components/pages/Farmacia/Farmacia"
 
 function App() {
 
@@ -31,9 +32,10 @@ function App() {
         <Route path="/citas" element={<Citas />} />
         <Route path="/pacientes" element={<Pacientes />} />
         <Route path="/contacto" element={<Contacto />} />
+        {/* <Route path="/farmacia" element={<Farmacia />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/registrar" element={<Register />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route protected path="/profile" element={<Profile />} />
         <Route path="/profile-edit/:idUser" element={<ProfileEdit />} />
         <Route path="/doctores" element={<Doctores />} />
       </Routes>

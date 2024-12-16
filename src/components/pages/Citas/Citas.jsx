@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom'
 
 const Citas = () => {
 
+  document.title = "Clinica Vida Plena  |  Citas"
+
   const user = JSON.parse(localStorage.getItem('user'))
 
   const [nombres, setNombres] = useState("")
@@ -76,6 +78,11 @@ const Citas = () => {
     }, 2000)
   }
 
+  const f = new Date()
+  const Hour = f.getHours()
+  const Minutes = f.getMinutes()
+  const Seconds = f.getSeconds()
+
   return (
     <main>
       <section className="appointments-section">
@@ -104,6 +111,9 @@ const Citas = () => {
             <input type="date" name="date" onChange={(e) => setFechaCita(e.target.value)} required />
             <input type="time" name="time" onChange={(e) => setHoraCita(e.target.value)} required />
           </div>
+          <div>
+            <label htmlFor="">Hora: {Hour}:{Minutes}:{Seconds} - Fecha {f.getDate()}/{f.getMonth() + 1}/{f.getFullYear()}</label>
+          </div>
           <button type="submit">Solicitar Cita</button>
         </form>
           :
@@ -128,6 +138,9 @@ const Citas = () => {
             </select>
             <input type="date" name="date" onChange={(e) => setFechaCita(e.target.value)} required />
             <input type="time" name="time" onChange={(e) => setHoraCita(e.target.value)} required />
+          </div>
+          <div>
+            <label htmlFor="">Hora: {Hour}:{Minutes}:{Seconds} - Fecha {f.getDate()}/{f.getMonth() + 1}/{f.getFullYear()}</label>
           </div>
           <button type="submit">Solicitar Cita</button>
         </form>

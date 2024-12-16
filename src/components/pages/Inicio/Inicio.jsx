@@ -13,7 +13,7 @@ const Inicio = () => {
         <p className='banner-parrafo'>"En Vida Plana nos especializamos en cuidar de tu salud con atención personalizada y tratamientos innovadores."</p>
       </section>
       <div className='descripcion' data-aos="fade-up">
-        <h3 className='descripcion-item'>"En Vida Plana ofrecemos una atención integral de salud, con un enfoque humano y especializado en [mencionar áreas clave como medicina general, atención de enfermedades crónicas, fisioterapia, etc.]. Nuestro objetivo es mejorar tu calidad de vida a través de tratamientos innovadores y un equipo profesional comprometido."</h3>
+        <h3 className='descripcion-item'>"En Vida Plana ofrecemos una atención integral de salud, con un enfoque humano y especializado en medicina general, atención de enfermedades crónicas, fisioterapia, etc. Nuestro objetivo es mejorar tu calidad de vida a través de tratamientos innovadores y un equipo profesional comprometido."</h3>
       </div>
       <section className='servicios' data-aos="fade-up">
         <Link to={"/atencion-medica-integral"} className='servicios-item' data-aos="flip-left">

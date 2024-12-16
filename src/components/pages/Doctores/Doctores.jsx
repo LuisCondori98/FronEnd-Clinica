@@ -3,6 +3,8 @@ import "./Doctores.css"
 
 const Doctores = () => {
 
+  document.title = "Clinica Vida Plena  |  Doctores"
+
   const [loading, setLoading] = useState(true)
   const [doctores, setDoctores] = useState([])
 

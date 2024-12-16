@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import axios from "axios"
 import "./Nosotros.css"
 
 const Nosotros = () => {
@@ -22,7 +23,7 @@ const Nosotros = () => {
           <h2 class="titulo">Nosotros</h2>
           <p class="subtitulo">Cuidando de tu bienestar integral, con amor y profesionalismo.</p>
 
-          <div class="descripcion-nosotros">
+          <div class="descripcion-nosotros" data-aos="flip-left">
             <p>
               En <strong>Vida Plena</strong>, nos dedicamos a ofrecer servicios de salud integrales, enfocados en mejorar la calidad de vida de nuestros pacientes. 
               Con más de <strong>10 años</strong> de experiencia, combinamos tecnología avanzada con un enfoque humano para atender tus necesidades de manera personalizada.
@@ -30,26 +31,26 @@ const Nosotros = () => {
           </div>
 
           <div class="mision-vision-valores">
-            <div class="card">
+            <div class="card" data-aos="zoom-in">
               <h3>Misión</h3>
               <p>
                 Mejorar la salud y el bienestar de cada persona a través de tratamientos efectivos y un trato cálido y profesional.
               </p>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in">
               <h3>Visión</h3>
               <p>
                 Ser reconocidos como la clínica líder en atención integral, ofreciendo servicios de excelencia y logrando un impacto positivo en la comunidad.
               </p>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in">
               <h3>Valores</h3>
               <ul>
-                <li>Empatía</li>
-                <li>Compromiso</li>
-                <li>Innovación</li>
-                <li>Calidad</li>
-                <li>Respeto</li>
+                <li>- Empatía</li>
+                <li>- Compromiso</li>
+                <li>- Innovación</li>
+                <li>- Calidad</li>
+                <li>- Respeto</li>
               </ul>
             </div>
           </div>
@@ -60,37 +61,22 @@ const Nosotros = () => {
             <div class="miembros">
               {
                 doctors.map(doc => (
-                  <div class="miembro">
+                  <div class="miembro" data-aos="zoom-in-down">
                     <img src={`/img/${doc.img}`} alt={doc.Nombre} />
-                    <h4>{doc.Nombre}</h4>
+                    <h4><strong>Doc. {doc.Nombre}</strong></h4>
                     <p>{doc.Especialidad}</p>
                   </div>
                 ))
               }
-              {/* <div class="miembro">
-                <img src="doctor1.jpg" alt="Dra. María López" />
-                <h4>Dra. María López</h4>
-                <p>Especialista en fisioterapia y rehabilitación</p>
-              </div>
-              <div class="miembro">
-                <img src="doctor2.jpg" alt="Dr. Juan Pérez" />
-                <h4>Dr. Juan Pérez</h4>
-                <p>Cardiólogo</p>
-              </div>
-              <div class="miembro">
-                <img src="doctor3.jpg" alt="Lic. Ana Gómez" />
-                <h4>Lic. Ana Gómez</h4>
-                <p>Nutricionista</p>
-              </div> */}
             </div>
           </div>
 
-          <div class="infraestructura">
+          <div class="infraestructura" data-aos="zoom-out-right">
             <h3>Infraestructura y Servicios</h3>
             <p>
               Nuestras instalaciones modernas y acogedoras cuentan con consultorios equipados, áreas de rehabilitación y un ambiente diseñado para tu tranquilidad.
             </p>
-            <img src="instalaciones.jpg" alt="Instalaciones Vida Plena" />
+            <img src="/img/instalaciones.webp" alt="Instalaciones Vida Plena" />
           </div>
         </div>
       </section>
